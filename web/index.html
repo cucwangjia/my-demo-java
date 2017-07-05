@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>WBuy</title>
+        <style type = "text/css">
+      body { 
+         font-family: tahoma, helvetica, arial, sans-serif;
+      }
+
+      table, tr, td { 
+         font-size: .9em;
+         border: 3px groove;
+         padding: 5px;
+         background-color: #dddddd;
+      }
+   </style>
+    </head>
+    <body>
+        <h1>Welcome to WBuy!</h1>
+        
+        <form method = "post" action = "home.jsp">
+            <table>
+                <tr><td colspan = "2"  ><strong>Log in</strong></td></tr>
+               <tr>
+                  <td>your id:</td>
+
+                  <td>
+                     <input type = "text" name = "uid" />
+                  </td>
+               </tr>
+
+               <tr>
+                  <td>your password:</td>
+
+                  <td>
+                     <input type = "password" name = "pw" />
+                  </td>
+               </tr>
+
+
+               <tr>
+                  <td colspan = "2">
+                     <input type = "submit"  value = "Submit" />
+                     <input type="button" onclick="javascript:window.location.href='register.jsp';" value="Register" /> 
+                     
+                  </td>
+               </tr>
+            </table>
+        </form> 
+    </body>
+</html>
